@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Wedding &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Katka & Matúš</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -74,13 +74,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a href="index.html"><strong>Svadba<strong></a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
-						<li class="has-dropdown">
+						<li class="active"><a href="index.html">Domov</a></li>
+						<li><a href="about.html">Ako sme sa spoznali</a></li>
+						<!-- <li class="has-dropdown">
 							<a href="services.html">Services</a>
 							<ul class="dropdown">
 								<li><a href="#">Web Design</a></li>
@@ -88,9 +88,9 @@
 								<li><a href="#">Branding</a></li>
 								<li><a href="#">API</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>
+							<a href="gallery.html">Galéria</a>
 							<ul class="dropdown">
 								<li><a href="#">HTML5</a></li>
 								<li><a href="#">CSS3</a></li>
@@ -98,7 +98,7 @@
 								<li><a href="#">jQuery</a></li>
 							</ul>
 						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="contact.html">Kontakt</a></li>
 					</ul>
 				</div>
 			</div>
@@ -113,10 +113,10 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Joefrey &amp; Sheila</h1>
-							<h2>We Are Getting Married</h2>
+							<h1>Katka &amp; Matúš</h1>
+							<h2>Budeme mať svadbu !</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<p><a href="#" class="btn btn-default btn-sm">Registrácia na svadbu</a></p>
 						</div>
 					</div>
 				</div>
@@ -128,9 +128,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<h3>November 28th, 2016 New York, USA</h3>
-					<p>We invited you to celebrate our wedding</p>
+					<h2>Ahojte!</h2>
+					<h3>3.9.2022, Kežmarok, Slovensko</h3>
+					<p>Pozývame Vás na našu svadbu</p>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
@@ -139,7 +139,7 @@
 						<img src="images/groom.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
-						<h3>Joefrey Mahusay</h3>
+						<h3>Ing. Matúš Barabás</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
 					</div>
 				</div>
@@ -149,7 +149,7 @@
 						<img src="images/bride.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
-						<h3>Sheila Mahusay</h3>
+						<h3>Mgr. Katarína Dluhá</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
 					</div>
 				</div>
@@ -609,23 +609,24 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+    	// var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+		var d = new Date('2022-09-03T17:00:00');
 
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
+    	// default example
+    	simplyCountdown('.simply-countdown-one', {
+        	year: d.getFullYear(),
+        	month: d.getMonth() + 1,
+        	day: d.getDate()
+    	});
 
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
-    });
-</script>
+    	//jQuery example
+    	$('#simply-countdown-losange').simplyCountdown({
+        	year: d.getFullYear(),
+        	month: d.getMonth() + 1,
+        	day: d.getDate(),
+        	enableUtc: false
+    	});
+	</script>
 
 	</body>
 </html>
