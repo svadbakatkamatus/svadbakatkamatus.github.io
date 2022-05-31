@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #fff;
+  color: #0f3819;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -128,13 +128,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color:#0f3819;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: white;
+  color: #0f3819;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -836,7 +836,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #0f3819;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -863,9 +863,10 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 55px;
   line-height: 1.5;
   margin-bottom: 30px;
+  font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
@@ -878,8 +879,8 @@ form label {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
-  background: #fff !important;
-  color: #F14E95;
+  background: #588764 !important;
+  color: white;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -887,7 +888,7 @@ form label {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #fff !important;
+  background: #588764 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -942,7 +943,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: #105e24;
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
