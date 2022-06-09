@@ -345,12 +345,14 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 400px;
   }
 }
+
 .fh5co-cover.fh5co-cover-sm .display-t,
 .fh5co-cover.fh5co-cover-sm .display-tc {
   height: 600px;
   display: table;
   width: 100%;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm .display-t,
   .fh5co-cover.fh5co-cover-sm .display-tc {
@@ -360,17 +362,19 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 1000px;
   float: left;
 }
+
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
 #fh5co-event .display-t,
 #fh5co-event .display-tc {
-  height: 700px;
+  /* height: 700px; */
   display: table;
   width: 100%;
 }
+
 #fh5co-counter .fh5co-heading h2,
 #fh5co-event .fh5co-heading h2 {
   color: #fff;
@@ -405,24 +409,29 @@ h1, h2, h3, h4, h5, h6, figure {
     height: inherit;
   }
 }
+
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   width: 100%;
+  height: 340px;
   float: left;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  margin-top: 25px;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
   #fh5co-event .event-wrap {
     margin-bottom: 10px;
   }
 }
+
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 20px;
@@ -433,17 +442,20 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
   display: block;
   color: rgba(255, 255, 255, 0.8);
 }
+
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
   color: white;
   font-size: 20px;
 }
+
 #fh5co-counter .event-wrap .event-col,
 #fh5co-event .event-wrap .event-col {
   width: 50%;
@@ -452,8 +464,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-counter {
-  height: 600px;
+  height: 900px;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-counter {
     height: auto;
@@ -971,8 +984,8 @@ form label {
 @media screen and (max-width: 480px) {
   .simply-countdown > .simply-section {
     /* coutndown blocks */
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
   }
 }
 
@@ -999,8 +1012,8 @@ form label {
 @media screen and (max-width: 480px) {
   .simply-countdown > .simply-section > div {
     /* countdown block inner div */
-    height: 80px;
-    width: 80px;
+    height: 75px;
+    width: 75px;
   }
 }
 
@@ -1012,13 +1025,13 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 25px;
   /* amounts */
 }
 
 @media screen and (max-width: 480px) {
   .simply-countdown > .simply-section .simply-amount {
-    font-size: 25px;
+    font-size: 22px;
     /* amounts */
   }
 }
@@ -1032,7 +1045,7 @@ form label {
 
 @media screen and (max-width: 480px) {
   .simply-countdown > .simply-section .simply-word {
-    font-size: 10px;
+    font-size: 8px;
     /* words */
   }
 }
@@ -1257,7 +1270,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  /* margin-bottom: 5em; */
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1281,7 +1294,7 @@ form label {
   font-size: 35px;
   line-height: 1.5;
   color: black;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Sacramento", Arial, cursive;
 }
 
 @media screen and (max-width: 480px) {
@@ -1946,6 +1959,16 @@ form label {
     width: 350px; 
     height: 350px;
   }
+}
+
+.counter-big-label {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 100;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
