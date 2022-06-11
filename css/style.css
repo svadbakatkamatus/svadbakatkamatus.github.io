@@ -1973,4 +1973,21 @@ form label {
   display: block;
 }
 
+.google-form {
+  width:  700px; 
+  height: 700px;
+}
+
+@media screen and (max-width: 480px) {
+  .google-form {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .google-form {
+    width: 500px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
