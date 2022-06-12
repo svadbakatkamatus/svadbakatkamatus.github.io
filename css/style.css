@@ -464,6 +464,14 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #fh5co-dresscode .event-wrap {
+    margin-bottom: 10px;
+    font-size: 14px;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-dresscode .event-wrap {
     margin-bottom: 10px;
