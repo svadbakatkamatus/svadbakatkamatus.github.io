@@ -1789,6 +1789,7 @@ form label {
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
   background: #fff;
+  display: none;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
   background: #fff;
